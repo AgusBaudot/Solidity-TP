@@ -27,7 +27,6 @@ contract Estudiante{
     function set_nota_materia (uint8 nota, string memory materia_) public{
         require(msg.sender == _docente, "Solo el docente designado puede asignar notas.");
         _notas_materias[materia_] = nota;
-        //crear array con notas, y hacer el .push y asignar la nueva materia al array.
         
         materias.push (materia_);
     }
@@ -35,7 +34,6 @@ contract Estudiante{
         return _notas_materias[materia];
     }
     function aprobo (string memory _materia) public view returns (bool){
-        //devolver true si la materia está aprobada. Se aprueba con 6/10.
         if (_notas_materias[_materia]>=60)
         {
             return true;
