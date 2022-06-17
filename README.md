@@ -1,8 +1,8 @@
 # Solidity-TP
 
-Link a etherscan del hash corriendo: ...
+Link a etherscan del hash corriendo: https://rinkeby.etherscan.io/address/0xd9145cce52d386f254917e481eb44e9943f39138
 
-Nombre e inicial de los integrantes: ...
+Nombre e inicial de los integrantes: Agustín B. y Sofía T.
 
 Cosas pertinentes a agregar:
 El tp está completo en cuanto a los objetivos obligatorios.
