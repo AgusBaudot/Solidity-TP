@@ -46,7 +46,6 @@ contract Estudiante{
         }
     }
     function promedio() public view returns (uint256){
-        //hacer lo de la coma y devolver el promedio.
         uint16 total = 0;
         for (uint8 i=0;i<materias.length;i++)
         {
